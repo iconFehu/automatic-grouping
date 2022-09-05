@@ -1,0 +1,26 @@
+{
+  "name": "automatic-grouping",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/lodash-es": "^4.17.6",
+    "ant-design-vue": "^3.2.12",
+    "core-js": "^3.25.0",
+    "lodash-es": "^4.17.21",
+    "vue": "^3.2.38"
+  },
+  "devDependencies": {
+    "@types/chrome": "0.0.196",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "prettier": "2.7.1",
+    "typescript": "^4.8.2",
+    "vite": "^3.0.9",
+    "vue-tsc": "^0.40.6"
+  }
+}
